@@ -47,7 +47,7 @@ Esto generaba:
 
 ### 💻 Desktop (versión actual)
 
-![Liveview Desktop current](./assets/current/desktop/liveview.png)
+![Liveview Desktop current](./assets/current/desktop/home-liveview.png)
 
 - Layout poco estructurado
 - Falta de consistencia visual
