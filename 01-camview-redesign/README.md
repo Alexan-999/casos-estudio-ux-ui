@@ -35,12 +35,75 @@ Esto generaba:
 
 ### 📱 Mobile (versión actual)
 
-![LiveView Mobile Old](./assets/current/mobile/liveview.png)
-![Reports Table Mobile Old](./assets/current/mobile/reports-table.png)
+![LiveView Mobile current](./assets/current/mobile/liveview.png)
+![Reports Table Mobile current](./assets/current/mobile/reports-table.png)
 
 - Navegación oculta en menú poco accesible
 - Tablas no responsivas
 - Difícil interacción táctil
 - Saturación de información
+
+---
+
+### 💻 Desktop (versión actual)
+
+![Liveview Desktop current](./assets/current/desktop/liveview.png)
+
+- Layout poco estructurado
+- Falta de consistencia visual
+- Uso ineficiente del espacio
+
+---
+## 💡 Propuesta de solución
+
+Se realizó un rediseño completo basado en principios de UX:
+
+- Jerarquía visual clara
+- Navegación persistente
+- Mobile-first design
+- Componentización de UI
+- Reducción de carga cognitiva
+
+---
+## Nueva navegación
+
+### Antes
+- Menú tipo dropdown
+- Difícil acceso a features
+
+### Después
+- Sidebar estructurada por secciones:
+
+**Main**
+- Dashboard  
+
+**Features**
+- LiveView  
+- Subscription  
+- Unit Search  
+
+**Account**
+- Profile  
+
+- Logout separado visualmente
+
+---
+### 📱 Mobile / Tablet
+
+![Sidebar Mobile](./assets/redesign/mobile/sidebar.png)
+
+- Sidebar accesible desde botón
+- Header con selector de sitio dinámico
+- Navegación clara y consistente
+
+---
+
+### 💻 Desktop
+
+![Sidebar Desktop](./assets/redesign/desktop/navbar.png)
+
+- Sidebar fija
+- Header con selector de sitio + perfil
+- Mejor distribución del espacio
 
 ---
