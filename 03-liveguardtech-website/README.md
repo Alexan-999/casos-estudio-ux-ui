@@ -92,6 +92,33 @@ Se mejoró el diseño y se le agregó dinamismo agregando un video en el fondo
 
 ![After Desktop](./assets/current-version/home-contact-us.png)
 
+---
+
+### Antes
+![Before Desktop](./assets/old-version/solutions.png)
+
+### Después
+![After Desktop](./assets/current-version/live-live.png)
+
+---
+
+### Antes
+Títulos con poca jerarquía visual
+![Before Desktop](./assets/old-version/terms.png)
+
+---
+
+### Después
+Títulos con el mismo estilo de otras páginas, manteniendo la coherencia y la línea gráfica
+
+![After Desktop](./assets/current-version/terms.png)
+
+---
+### Antes
+![Before Desktop](./assets/old-version/page-contact-us.png)
+
+### Después
+![After Desktop](./assets/current-version/page-contact-us.png)
 
 ---
 
