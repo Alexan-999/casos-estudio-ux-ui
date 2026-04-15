@@ -151,4 +151,4 @@ https://pevapi.com/
 
 ---
 
-> ✨ Este proyecto se encuentra en producción y es utilizado activamente como canal de contacto y reclutamiento.
+> Este proyecto se encuentra en producción y es utilizado activamente como canal de contacto y reclutamiento.

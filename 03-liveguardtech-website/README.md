@@ -72,7 +72,26 @@ Mejora sustancial en el diseño y en los efectos hover de la navbar
 
 ### Antes vs Después
 
-/*Pendiente imgs*/
+### Antes
+![Before Desktop](./assets/old-version/our-services.png)
+
+### Después
+![After Desktop](./assets/current-version/what-we-do.png)
+
+---
+
+### Antes
+Enorme baner color rojo.
+
+![Before Desktop](./assets/old-version/home-contact-us.png)
+
+---
+
+### Después
+Se mejoró el diseño y se le agregó dinamismo agregando un video en el fondo
+
+![After Desktop](./assets/current-version/home-contact-us.png)
+
 
 ---
 
