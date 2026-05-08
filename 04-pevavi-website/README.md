@@ -1,154 +1,163 @@
 # 🌐 Company Website – Landing & Hiring Flow Case Study
 
-> 🛠️ Rol: Frontend Developer  
-> ⚙️ Tecnología: Orchard Core CMS  
-> 🎯 Enfoque: UX, conversión y automatización de procesos  
-> 🔗 Sitio en producción: [Ver sitio web](https://pevapi.com/  )
+**English** | [Español](./README.es.md)
 
-## Contexto
+> 🛠️ Role: Frontend Developer  
+> ⚙️ Tech: Orchard Core CMS  
+> 🎯 Focus: UX, conversion, and process automation  
+> 🔗 Live site: [Visit website](https://pevapi.com/)
 
-Se desarrolló un sitio web corporativo enfocado en:
+## Context
 
-- Presentar servicios  
-- Comunicar la identidad de la empresa  
-- Facilitar el reclutamiento de talento  
+A corporate website was developed with a focus on:
 
-El objetivo principal fue crear una experiencia simple pero efectiva que guiara al usuario desde la exploración hasta la conversión.
+- Presenting services  
+- Communicating the company identity  
+- Supporting talent recruiting  
 
----
-
-## Objetivo
-
-> Diseñar una landing page clara y funcional que permita convertir visitantes en contactos o candidatos de manera eficiente.
+The main goal was to create a simple but effective experience that guides users from exploration to conversion.
 
 ---
 
-## Estructura del sitio
+## Goal
 
-La landing se compone de cuatro secciones principales:
-
-- **Hero (imagen principal)**
-- **Servicios**
-- **Nosotros**
-- **Empleos**
+> Design a clear, functional landing page that converts visitors into contacts or candidates efficiently.
 
 ---
 
-## Diseño de la experiencia
+## Site structure
+
+The landing page is composed of four main sections:
+
+- **Hero**
+- **Services**
+- **About**
+- **Jobs**
+
+---
+
+## Experience design
 
 ### Landing Page
 
 ![Landing](./assets/home.png)
 
-- Diseño limpio y moderno  
-- Jerarquía visual clara  
-- Navegación sencilla  
+- Clean, modern design  
+- Clear visual hierarchy  
+- Simple navigation  
 
 ---
-### Sección "Nosotros"
+
+### About section
 
 ![About](./assets/about-us.png)
 
-- 3 cards informativas  
-- Cada una abre un modal con más detalles  
-- Interacción ligera sin cambiar de página  
+- 3 informational cards  
+- Each card opens a modal with more details  
+- Lightweight interaction without leaving the page  
 
 ---
-### Pagina de Empleos
+
+### Jobs page
 
 ![Jobs](./assets/jobs.png)
 
-- Listado de vacantes en formato card  
-- Información resumida y fácil de escanear  
+- Job openings listed as cards  
+- Summarized information that’s easy to scan  
 
 ---
-### Detalle de empleo
+
+### Job detail
 
 ![Job Detail](./assets/job-detail.png)
 
-- Información completa de la vacante  
-- CTA claro: **Aplicar**
+- Full vacancy information  
+- Clear CTA: **Apply**
 
 ---
 
-## Flujo de aplicación (core del proyecto)
+## Application flow (project core)
 
-Este es el punto más importante del sistema:
-
----
-
-### Flujo UX
-
-1. Usuario explora el sitio  
-2. Navega a **Empleos**  
-3. Selecciona una vacante  
-4. Hace clic en **Aplicar**  
-5. Es dirigido al formulario de contacto  
+This is the most important part of the system.
 
 ---
 
-### Formulario inteligente
+### UX flow
+
+1. User explores the site  
+2. Navigates to **Jobs**  
+3. Selects a vacancy  
+4. Clicks **Apply**  
+5. Gets redirected to the contact form  
+
+---
+
+### Smart form
 
 ![Form](./assets/form.png)
 
-El formulario incluye:
+The form includes:
 
-- Nombre  
-- Teléfono  
-- Correo  
-- Tipo de solicitud:
-  - Duda  
-  - Queja  
-  - Sugerencia  
-  - **Solicitud de empleo**  
+- Name  
+- Phone  
+- Email  
+- Request type:
+  - Question  
+  - Complaint  
+  - Suggestion  
+  - **Job application**
 
 ---
-### Comportamiento dinámico
+
+### Dynamic behavior
 
 ![Form File Upload](./assets/form-file.png)
 
-- Al seleccionar **Solicitud de empleo**:
-  - Se activa un campo adicional para subir documentos  
-- Mejora la experiencia al mostrar solo lo necesario  
-
----
-## ⚙️ Automatización
-
-- Los datos enviados son procesados automáticamente  
-- Las solicitudes de empleo llegan directamente a **Recursos Humanos**  
-- Se elimina fricción en el proceso de reclutamiento  
+- When **Job application** is selected:
+  - An additional field is enabled to upload documents  
+- Improves UX by showing only what’s needed  
 
 ---
 
-## Decisiones clave
+## ⚙️ Automation
 
-- Mantener una arquitectura simple  
-- Priorizar claridad sobre complejidad  
-- Diseñar un flujo sin pasos innecesarios  
-- Implementar lógica condicional en UI  
-
----
-## 📈 Impacto
-
-- Facilita la captación de talento  
-- Reduce fricción en el proceso de aplicación  
-- Mejora la experiencia del usuario  
-- Automatiza procesos internos  
-
----
-## Aprendizajes
-
-- Una landing efectiva no necesita ser compleja  
-- El valor está en el flujo, no solo en la UI  
-- Los formularios dinámicos mejoran la conversión  
-- Integrar frontend con procesos reales genera impacto directo  
+- Submitted data is processed automatically  
+- Job applications go directly to **Human Resources**  
+- Reduces friction in the recruiting process  
 
 ---
 
-## 🔗 Ver sitio en vivo
+## Key decisions
+
+- Keep the architecture simple  
+- Prioritize clarity over complexity  
+- Design a flow with no unnecessary steps  
+- Implement conditional UI logic  
+
+---
+
+## 📈 Impact
+
+- Improves talent acquisition  
+- Reduces friction in the application process  
+- Improves the user experience  
+- Automates internal processes  
+
+---
+
+## Learnings
+
+- An effective landing page doesn’t need to be complex  
+- Value comes from the flow, not only the UI  
+- Dynamic forms improve conversion  
+- Connecting frontend to real processes creates direct impact  
+
+---
+
+## 🔗 Live site
 
 https://pevapi.com/
 
 ---
 
-> Este proyecto se encuentra en producción y es utilizado activamente como canal de contacto y reclutamiento.
+> This project is in production and actively used as a contact and recruiting channel.
