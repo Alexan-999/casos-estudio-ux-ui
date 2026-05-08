@@ -84,6 +84,8 @@ Se rediseñó completamente la arquitectura:
 
 ![Navbar](./assets/navegation/navbar.png)
 ![Dropdown Example](./assets/navegation/navbar-monitoring.png)
+![Dropdown second Example](./assets/navegation/navbar-infrastructure.png)
+![Dropdown third Example](./assets/navegation/navbar-business.png)
 
 ---
 
