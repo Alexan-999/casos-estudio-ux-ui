@@ -1,4 +1,4 @@
-# 🌐 Company Website – Landing & Hiring Flow Case Study
+# 🌐 Sitio web de la empresa: Caso de estudio sobre el proceso de llegada y contratación
 
 [English](./README.md) | **Español**
 

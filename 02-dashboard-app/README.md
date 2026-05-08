@@ -1,154 +1,162 @@
 # Dashboard App – From Tables to Decision-Making
 
-> 🛠️ Rol: Frontend Developer / UX/UI Designer  
-> 🎯 Enfoque: Data visualization, navegación y experiencia de producto  
-> 🧠 Objetivo: Transformar datos en insights accionables  
+**English** | [Español](./README.es.md)
+
+> 🛠️ Role: Frontend Developer / UX/UI Designer  
+> 🎯 Focus: Data visualization, navigation, and product experience  
+> 🧠 Goal: Turn data into actionable insights
 
 ---
----
 
-## Contexto
+## Context
 
-La aplicación estaba compuesta por múltiples secciones enfocadas en monitoreo, infraestructura y negocio.
+The application consisted of multiple sections focused on monitoring, infrastructure, and business.
 
-Sin embargo, todas compartían el mismo problema:
+However, they all shared the same problem:
 
-> La información existía, pero no era útil para tomar decisiones.
-
----
-## ⚠️ Problema
-
-El sistema estaba basado completamente en tablas:
-
-- Alta densidad de datos
-- Difícil lectura
-- Sin jerarquía visual
-- Sin insights claros
+> The information existed, but it wasn’t useful for decision-making.
 
 ---
-### Antes: experiencia basada en tablas
+
+## ⚠️ Problem
+
+The system was entirely table-based:
+
+- High data density
+- Hard to read
+- No visual hierarchy
+- No clear insights
+
+---
+
+### Before: table-driven experience
 
 ![Tables 1](./assets/tables/units.png)
 ![Tables 2](./assets/tables/offline-report.png)
 
-El usuario debía:
+Users had to:
 
-- Interpretar manualmente la información  
-- Navegar entre múltiples páginas  
-- Construir sus propias conclusiones  
-
----
-## 💡 Insight clave
-
-> “No necesitamos más datos, necesitamos mejor interpretación de los datos.”
+- Manually interpret information  
+- Navigate across multiple pages  
+- Build their own conclusions
 
 ---
 
-## 🧭 Reestructuración de navegación
+## 💡 Key insight
 
-Se rediseñó completamente la arquitectura:
+> “We don’t need more data; we need better interpretation of the data.”
 
-### Antes
-- Sidebar con múltiples opciones sin agrupación clara
+---
 
-### Después
-- Navbar con estructura lógica por dominio:
+## 🧭 Navigation restructuring
+
+The information architecture was fully redesigned:
+
+### Before
+- Sidebar with many options and no clear grouping
+
+### After
+- Navbar with a logical domain-based structure:
 
 **Monitoring**
 - Offline Map  
 - Offline Report  
-- Offline Report 2.0  
+- Offline Report 2.0
 
 **Infrastructure**
 - Sites  
 - Units  
-- Cameras  
+- Cameras
 
 **Business**
 - Sales Report  
-- Sites Cancelation 
+- Sites Cancellation
 
-### Agrupar por contexto permite:
+### Grouping by context enables:
 
-- Escalabilidad
-- Mejor descubrimiento
-- Reducción de carga cognitiva
+- Scalability
+- Better discoverability
+- Reduced cognitive load
 
 ---
 
-### 🖥️ Nueva navegación
+### 🖥️ New navigation
 
 ![Navbar](./assets/navegation/navbar.png)
 ![Dropdown Example](./assets/navegation/navbar-monitoring.png)
 
 ---
-## 📊 El cambio: un verdadero Dashboard
 
-Se diseñó una nueva página principal enfocada en:
+## 📊 The change: a real Dashboard
 
-> Visualizar el estado del negocio en segundos
+A new homepage was designed with a single focus:
+
+> Visualize business health in seconds
 
 ---
 
-### Vista general del Dashboard
+### Dashboard overview
 
 ![Dashboard Overview](./assets/dashboard/dashboard.png)
 
 ---
 
-## Sistema de Widgets
+## Widget system
 
-Los widgets fueron diseñados como unidades de información clara, agrupadas por propósito:
+Widgets were designed as clear information units, grouped by purpose:
 
 ### Active Infrastructure Overview
 
-- Estado actual de infraestructura
-- Visibilidad inmediata de activos
+- Current infrastructure status
+- Immediate visibility of assets
 
 ### Growth & Sales Dynamics
 
-- Tendencias de crecimiento
-- Métricas clave de negocio
+- Growth trends
+- Key business metrics
 
 ### Operational Center
 
-- Monitoreo operativo
-- Detección de problemas
+- Operational monitoring
+- Issue detection
 
 ### Lifecycle Outlook
 
 ![Dashboard Overview](./assets/dashboard/dashboard-2.png)
 
-- Estado de sitios
-- Ciclo de vida de clientes
-
----
-## 🎯 Principios aplicados
-
-- Jerarquía visual clara  
-- Reducción de carga cognitiva  
-- Agrupación por contexto  
-- Diseño orientado a decisiones  
-- Escaneo rápido de información  
-
----
-## 📈 Impacto
-
-- Reducción del tiempo de análisis  
-- Mayor claridad en métricas clave  
-- Mejora en toma de decisiones  
-- Experiencia más intuitiva  
+- Site status
+- Customer lifecycle
 
 ---
 
-## Aprendizajes
+## 🎯 Principles applied
 
-- Un dashboard no es una colección de datos, es una herramienta de decisión  
-- La navegación define cómo se entiende el sistema  
-- Agrupar información correctamente es tan importante como diseñarla  
-- UX también es cómo se interpretan los datos  
+- Clear visual hierarchy  
+- Reduced cognitive load  
+- Contextual grouping  
+- Decision-oriented design  
+- Fast information scanning
 
 ---
-## Notas
 
-Este rediseño fue conceptualizado y diseñado como una mejora estructural del producto existente, enfocado en escalabilidad y claridad.
+## 📈 Impact
+
+- Reduced analysis time  
+- Increased clarity of key metrics  
+- Better decision-making  
+- More intuitive experience
+
+---
+
+## Learnings
+
+- A dashboard isn’t a collection of data; it’s a decision-making tool  
+- Navigation defines how the system is understood  
+- Grouping information correctly is as important as designing it  
+- UX also means how data is interpreted
+
+---
+
+## Notes
+
+This redesign was conceptualized and designed as a structural improvement of an existing product, focused on scalability and clarity.

@@ -1,143 +1,167 @@
-# Website – Rediseño UI
+# Website UI Redesign
 
-> 🛠️ Rol: Frontend Developer / UI Designer  
-> 🎯 Enfoque: UI, branding y percepción de producto  
-> 🔗 Sitio en producción: [Ver sitio web](https://www.liveguardtech.com/)
+**English** | [Español](./README.es.md)
 
----
-## Contexto
-
-El sitio web corporativo es el primer punto de contacto entre la empresa y potenciales clientes.
-
-Sin embargo, la versión existente no reflejaba el nivel de profesionalismo del servicio ofrecido.
+> 🛠️ Role: Frontend Developer / UI Designer  
+> 🎯 Focus: UI, branding, and product perception  
+> 🔗 Live site: [Visit website](https://www.liveguardtech.com/)
 
 ---
 
-## ⚠️ Problema
+## Context
 
-El diseño anterior presentaba:
+The corporate website is often the first touchpoint between the company and potential customers.
 
-- Estética desactualizada  
-- Falta de jerarquía visual  
-- Uso inconsistente de colores  
-- Baja claridad en el contenido 
-- Problemas de responsividad en distintos 
+However, the existing version didn’t reflect the level of professionalism of the service being offered.
 
 ---
 
-## Antes
+## ⚠️ Problem
+
+The previous design had:
+
+- Outdated look and feel  
+- Weak visual hierarchy  
+- Inconsistent use of color  
+- Low content clarity  
+- Responsiveness issues across devices
+
+---
+
+## Before
 
 ![Home Old](./assets/old-version/home.png)
 
-El sitio generaba:
+This resulted in:
 
-- Baja confianza visual  
-- Dificultad para entender la propuesta de valor  
-- Experiencia poco atractiva  
-
----
-## 🎯 Objetivo
-
-> Crear una experiencia moderna, clara y profesional que refleje la calidad del servicio.
+- Lower visual trust  
+- Harder to understand the value proposition  
+- Less engaging experience
 
 ---
-## Rediseño
+
+## 🎯 Goal
+
+> Create a modern, clear, professional experience that reflects service quality.
+
+---
+
+## Redesign
 
 ![Home New](./assets/current-version/home.png)
 ![Comparison New](./assets/current-version/comparison.png)
 
-Mejora sustancial en el diseño y en los efectos hover de la navbar
+Significant improvements to the design and the navbar hover effects.
 
 ![Navigation New](./assets/current-version/navbar.png)
 
-### Nueva identidad visual
-- Paleta basada en tonos azules
-- Mayor contraste y legibilidad
+### New visual identity
 
-## Tipografía
-- Mejor jerarquía de información
+- Palette based on blue tones
+- Better contrast and readability
+
+## Typography
+
+- Improved information hierarchy
 
 ### Layout
-- Secciones bien definidas
-- Uso de espacios en blanco
-- Mejor escaneo visual
 
-### Navegación
-- Más clara e intuitiva
-- Acceso rápido a secciones clave
+- Clearly defined sections
+- Better use of whitespace
+- Improved visual scanning
+
+### Navigation
+
+- Clearer and more intuitive
+- Faster access to key sections
 
 ---
 
-## Comparativa
+## Comparisons
 
-### Antes vs Después
+### Before vs After
 
-### Antes
+### Before
+
 ![Before Desktop](./assets/old-version/our-services.png)
 
-### Después
+### After
+
 ![After Desktop](./assets/current-version/what-we-do.png)
 
 ---
 
-### Antes
-Enorme baner color rojo.
+### Before
+
+Large red banner.
 
 ![Before Desktop](./assets/old-version/home-contact-us.png)
 
 ---
 
-### Después
-Se mejoró el diseño y se le agregó dinamismo agregando un video en el fondo
+### After
+
+Improved the design and added motion by using a background video.
 
 ![After Desktop](./assets/current-version/home-contact-us.png)
 
 ---
 
-### Antes
+### Before
+
 ![Before Desktop](./assets/old-version/solutions.png)
 
-### Después
+### After
+
 ![After Desktop](./assets/current-version/live-live.png)
 
 ---
 
-### Antes
-Títulos con poca jerarquía visual
+### Before
+
+Low hierarchy in headings.
+
 ![Before Desktop](./assets/old-version/terms.png)
 
 ---
 
-### Después
-Títulos con el mismo estilo de otras páginas, manteniendo la coherencia y la línea gráfica
+### After
+
+Headings were updated to match the style of other pages, keeping consistency across the visual system.
 
 ![After Desktop](./assets/current-version/terms.png)
 
 ---
-### Antes
+
+### Before
+
 ![Before Desktop](./assets/old-version/page-contact-us.png)
 
-### Después
+### After
+
 ![After Desktop](./assets/current-version/page-contact-us.png)
 
 ---
 
-## Impacto
+## Impact
 
-- Mejora en percepción de marca  
-- Mayor claridad en servicios ofrecidos  
-- Experiencia más profesional  
-- Mejor primera impresión para clientes 
-
-## Aprendizajes
-
-- La UI define la confianza del usuario  
-- Un buen diseño comunica antes que el contenido  
-- La simplicidad mejora la experiencia  
-- El diseño web también es una herramienta de negocio  
+- Better brand perception  
+- Improved clarity of offered services  
+- More professional experience  
+- Better first impression for customers
 
 ---
 
-## 🔗 Ver sitio en vivo
+## Learnings
+
+- UI defines user trust  
+- Good design communicates before content  
+- Simplicity improves the experience  
+- Web design is also a business tool
+
+---
+
+## 🔗 Live site
 
 https://www.liveguardtech.com
+
