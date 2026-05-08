@@ -1,145 +1,153 @@
-# 📹 CamView – UX/UI Rediseño Caso de Estudio
+# 📹 CamView – UX/UI Redesign Case Study
 
-> **Rol:** Frontend Developer / UX Thinker  
-> **Contexto:** Rediseño de producto en producción  
-> **Enfoque:** UX, UI, navegación, eficiencia y mobile-first 
+**English** | [Español](./README.es.md)
 
-## Antes vs Después
+> 🛠️ Role: Frontend Developer / UX Thinker  
+> 🧠 Context: Redesign of a production product  
+> 🎯 Focus: UX, UI, navigation, efficiency, and mobile-first
+
+## Before vs After
 
 ### 📱 Mobile
 
-| Antes | Después |
+| Before | After |
 |------|--------|
 | ![Mobile Home Current](./assets/current/mobile/liveview.png) | ![Mobile Dashboard New](./assets/redesign/mobile/dashboard.png) |
 
-| Navegación (Antes) | Navegación (Después) |
+| Navigation (Before) | Navigation (After) |
 |-------------------|---------------------|
 | ![Dropdown](./assets/current/mobile/dropdown.png) | ![Sidebar](./assets/redesign/mobile/sidebar.png) |
 
 ---
+
 ### 💻 Desktop
 
-| Antes | Después |
+| Before | After |
 |------|--------|
 | ![Desktop Home Current](./assets/current/desktop/home-liveview.png) | ![Desktop Dashboard New](./assets/redesign/desktop/dashboard.png) |
 
-| Navegación (Antes) | Navegación (Después) |
+| Navigation (Before) | Navigation (After) |
 |-------------------|---------------------|
 | ![Navbar Old](./assets/current/desktop/navigation.png) | ![Sidebar New](./assets/redesign/desktop/navbar.png) |
 
 ---
 
+## Context
 
-## Contexto
+CamView is a web app that allows users to monitor security cameras in real time, review reports, and interact with different parts of the system.
 
-CamView es una web app que permite a usuarios monitorear cámaras de seguridad en tiempo real, consultar reportes e interactuar con diferentes funcionalidades del sistema.
+Through continuous use, multiple friction points were identified—especially around navigation, information consumption, and the mobile experience.
 
-A partir del uso continuo del producto, se detectaron múltiples fricciones en la experiencia, especialmente en navegación, consumo de información y uso en dispositivos móviles.
-
-Este rediseño busca mejorar la claridad, eficiencia y accesibilidad del sistema.
+This redesign focuses on improving clarity, efficiency, and accessibility.
 
 ---
-## Problemas detectados
+
+## Problems identified
 
 ### 📱 Mobile
 
 ![Reports Table Mobile current](./assets/current/mobile/reports-table.png)
 
-- ❌ Tablas no responsivas y difíciles de consumir  
-- ❌ Navegación oculta con múltiples pasos  
-- ❌ Interacción táctil poco optimizada  
-- ❌ Saturación de información sin jerarquía  
+- ❌ Non-responsive tables that are hard to consume  
+- ❌ Hidden navigation with multiple steps  
+- ❌ Touch interaction not optimized  
+- ❌ Information overload with no hierarchy
 
 ---
 
 ### 💻 Desktop
 
-- ❌ Layout poco estructurado  
-- ❌ Uso ineficiente del espacio  
-- ❌ Falta de consistencia visual  
-- ❌ Dificultad para identificar acciones clave  
+- ❌ Poorly structured layout  
+- ❌ Inefficient use of space  
+- ❌ Lack of visual consistency  
+- ❌ Hard to identify key actions
 
 ---
-## ⚖️ Comparativas clave (Decisiones de diseño)
 
-### 🔹 Navegación
+## ⚖️ Key comparisons (design decisions)
 
-| Antes | Después |
+### 🔹 Navigation
+
+| Before | After |
 |------|--------|
 | ![Dropdown Mobile](./assets/current/mobile/dropdown.png) | ![Sidebar Mobile](./assets/redesign/mobile/sidebar.png) |
 
-**Problema:**  
-- Navegación oculta y poco accesible  
+**Problem:**  
+- Hidden, low-access navigation
 
-**Solución:**  
-- Sidebar persistente y estructurada por secciones  
+**Solution:**  
+- Persistent sidebar, organized by sections
 
-**Impacto:**  
-- Acceso más rápido a features  
-- Reducción de fricción en navegación  
+**Impact:**  
+- Faster access to features  
+- Reduced navigation friction
 
 ---
-### 🔹 Reportes
 
-| Antes | Después |
+### 🔹 Reports
+
+| Before | After |
 |------|--------|
 | ![Reports Table](./assets/current/mobile/reports-table.png) | ![Reports New](./assets/redesign/mobile/incidents-collapsed.png) |
 
-**Problema:**  
-- Tablas difíciles de leer y usar en mobile  
+**Problem:**  
+- Tables are hard to read and use on mobile
 
-**Solución:**  
-- Rediseño visual + filtros dedicados  
+**Solution:**  
+- Visual redesign + dedicated filters
 
-**Impacto:**  
-- Mejor lectura  
-- Mayor eficiencia en análisis  
+**Impact:**  
+- Better readability  
+- More efficient analysis
 
 ---
-### 🔹 Suscripción
 
-| Antes | Después |
+### 🔹 Subscription
+
+| Before | After |
 |------|--------|
 | ![Subscription Page](./assets/current/mobile/subscription.png) | ![Subscription Modal](./assets/redesign/mobile/subscription-modal.png) |
 
-**Problema:**  
-- Flujo largo y separado  
+**Problem:**  
+- Long, separated flow
 
-**Solución:**  
-- Conversión a modal contextual  
+**Solution:**  
+- Converted into a contextual modal
 
-**Impacto:**  
-- Menos pasos  
-- Interacción más rápida  
+**Impact:**  
+- Fewer steps  
+- Faster interaction
 
 ---
-### 🔹 Búsqueda de unidades
 
-| Antes | Después |
+### 🔹 Unit search
+
+| Before | After |
 |------|--------|
 | ![Search Old](./assets/current/mobile/unit-search.png) | ![Search New](./assets/redesign/mobile/unit-search.png) |
 
-**Problema:**  
-- Flujo poco claro  
+**Problem:**  
+- Unclear flow
 
-**Solución:**  
-- Flujo optimizado + resultados claros  
+**Solution:**  
+- Optimized flow + clearer results
 
-**Impacto:**  
-- Mejor experiencia de búsqueda  
-- Reducción de confusión  
+**Impact:**  
+- Better search experience  
+- Less confusion
 
 ---
-## ✨ Resultado final (Nueva experiencia)
+
+## ✨ Final result (new experience)
 
 ### 📱 Mobile
 
-- Dashboard centralizado  
-- Sidebar accesible  
-- LiveView optimizado  
-- Filtros en reportes (nuevo feature)  
-- Búsqueda mejorada  
-- Modales para acciones rápidas  
+- Centralized Dashboard  
+- Accessible sidebar  
+- Optimized LiveView  
+- Report filters (new feature)  
+- Improved search  
+- Modals for quick actions
 
 ![Dashboard](./assets/redesign/mobile/dashboard.png)
 ![LiveView](./assets/redesign/mobile/liveview.png)
@@ -147,43 +155,47 @@ Este rediseño busca mejorar la claridad, eficiencia y accesibilidad del sistema
 ![Search Complete](./assets/redesign/mobile/time-lapse.png)
 
 ---
+
 ### 💻 Desktop
 
-- Navbar fija  
-- Mejor uso del espacio  
-- Jerarquía visual clara  
-- Consistencia entre vistas  
+- Fixed navbar  
+- Better use of space  
+- Clear visual hierarchy  
+- Consistency across views
 
 ![Desktop Dashboard](./assets/redesign/desktop/dashboard.png)
 ![Reports](./assets/redesign/desktop/incidents.png)
 ![Search](./assets/redesign/desktop/unit-search.png)
 
 ---
-## 🧠 Decisiones de diseño
 
-- **Sidebar persistente** → reduce carga cognitiva y mejora navegación  
-- **Dashboard** → centraliza información crítica  
-- **Modales** → reducen fricción en flujos importantes  
-- **Mobile-first** → asegura experiencia consistente en todos los dispositivos  
-- **Filtros en reportes** → permiten análisis más eficiente  
-- **Mejor jerarquía visual** → facilita lectura y toma de decisiones  
+## 🧠 Design decisions
 
----
-## 🎯 Resultado / Impacto
-
-Este rediseño transforma la experiencia de CamView en:
-
-- ✔ Navegación clara y accesible  
-- ✔ Reducción de pasos en tareas clave  
-- ✔ Mejor consumo de información  
-- ✔ Experiencia consistente entre dispositivos  
-- ✔ Mayor enfoque en acciones principales del usuario  
+- **Persistent sidebar** → reduces cognitive load and improves navigation  
+- **Dashboard** → centralizes critical information  
+- **Modals** → reduce friction in key flows  
+- **Mobile-first** → ensures a consistent experience across devices  
+- **Report filters** → enable more efficient analysis  
+- **Improved visual hierarchy** → supports readability and decision-making
 
 ---
-## Conclusión
 
-Este proyecto no solo representa un cambio visual, sino una mejora integral en la experiencia del usuario, enfocada en eficiencia, claridad y escalabilidad del producto.
+## 🎯 Outcome / Impact
 
-Refleja un enfoque centrado en el usuario y en la toma de decisiones basadas en problemas reales del sistema.
+This redesign transforms CamView into:
+
+- ✔ Clear, accessible navigation  
+- ✔ Fewer steps for key tasks  
+- ✔ Better information consumption  
+- ✔ Consistent cross-device experience  
+- ✔ Stronger focus on users’ primary actions
+
+---
+
+## Conclusion
+
+This project represents not only a visual change, but an end-to-end improvement of the user experience—focused on efficiency, clarity, and scalability.
+
+It reflects a user-centered approach grounded in real product problems and decisions.
 
 ---
